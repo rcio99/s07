@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+      --bs-body-font-family: 'Space Grotesk', sans-serif;
+}
+
+html, body{
+    min-height: 100%;
+}
+h1{
+    color: #d8b365;
+}
+h1 span:first-child{
+    font-weight: 600;
+}
+a{
+    color: #5ab4ac;
+    text-decoration: none;
+}
+a :hover{
+    color: #458b86;
+    text-decoration: none;
+}
